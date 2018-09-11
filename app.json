@@ -88,7 +88,7 @@
         "debounceTimeout": 500,
         "minTxInterval": 1000,
         "dropPendingPayload": false,
-        "signal": "kakuold"
+        "signal": "kaku"
       },
       "pair": [
         {
@@ -101,7 +101,7 @@
               {
                 "name": "rf.pair.choice.buttons.copy.default",
                 "view": "rf.imitate",
-                "svg": "assets/svg/YCT-102_pair.svg"
+                "svg": "assets/svg/AYCT-102_pair.svg"
               },
               {
                 "name": "rf.pair.choice.buttons.generate.default",
@@ -116,7 +116,7 @@
           "options": {
             "title": "rf.pair.imitate.title.socket",
             "body": "rf.pair.imitate.body.socket",
-            "svg": "assets/svg/YCT-102_pair.svg"
+            "svg": "assets/svg/AYCT-102_pair.svg"
           },
           "navigation": {
             "prev": "rf.choice"
@@ -345,7 +345,7 @@
         "debounceTimeout": 500,
         "minTxInterval": 1000,
         "dropPendingPayload": false,
-        "signal": "kakuold"
+        "signal": "kaku"
       },
       "pair": [
         {
@@ -358,7 +358,7 @@
               {
                 "name": "rf.pair.choice.buttons.copy.default",
                 "view": "rf.imitate",
-                "svg": "assets/svg/YCT-102_pair.svg"
+                "svg": "assets/svg/AYCT-102_pair.svg"
               },
               {
                 "name": "rf.pair.choice.buttons.generate.default",
@@ -373,7 +373,7 @@
           "options": {
             "title": "rf.pair.imitate.title.socket",
             "body": "rf.pair.imitate.body.socket",
-            "svg": "assets/svg/YCT-102_pair.svg"
+            "svg": "assets/svg/AYCT-102_pair.svg"
           },
           "navigation": {
             "prev": "rf.choice"
@@ -453,7 +453,7 @@
         "debounceTimeout": 500,
         "minTxInterval": 1000,
         "dropPendingPayload": false,
-        "signal": "kakuold"
+        "signal": "kaku"
       },
       "pair": [
         {
@@ -466,7 +466,7 @@
               {
                 "name": "rf.pair.choice.buttons.copy.default",
                 "view": "rf.imitate",
-                "svg": "assets/svg/YCT-102_pair.svg"
+                "svg": "assets/svg/AYCT-102_pair.svg"
               },
               {
                 "name": "rf.pair.choice.buttons.generate.default",
@@ -481,7 +481,7 @@
           "options": {
             "title": "rf.pair.imitate.title.socket",
             "body": "rf.pair.imitate.body.socket",
-            "svg": "assets/svg/YCT-102_pair.svg"
+            "svg": "assets/svg/AYCT-102_pair.svg"
           },
           "navigation": {
             "prev": "rf.choice"
@@ -8357,7 +8357,7 @@
         ],
         "interval": 10150,
         "sensitivity": 0.5,
-        "repetitions": 20,
+        "repetitions": 5,
         "minimalLength": 32,
         "maximalLength": 36
       },
