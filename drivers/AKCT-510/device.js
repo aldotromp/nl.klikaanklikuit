@@ -16,4 +16,9 @@ module.exports = RFDevice => class AKCT510Device extends KakuDevice(RFDevice) {
         // Init your device here
     }
 
+    assembleDeviceObject() {
+		// Ignore check for group button
+		return super.assembleDeviceObject(true);
+	}
+
 };
