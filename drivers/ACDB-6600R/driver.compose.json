@@ -1,0 +1,11 @@
+{
+    "id": "ACDB-6600R",
+    "name": {
+        "en": "ACDB-6600 Remote"
+    },
+    "$extends": [
+        "defaults",
+        "pair.remote",
+        "flow.doorbell.remote"
+    ]
+}

@@ -1,11 +1,11 @@
 {
     "$flow": {
-        "actions": [
+        "triggers": [
             {
-                "id": "{{driverId}}:send",
+                "id": "{{driverId}}:received",
                 "title": {
-                    "en": "Trigger Doorbell",
-                    "nl": "Laat deurbel afgaan"
+                    "en": "Doorbell is pressed",
+                    "nl": "Deurbel knop is ingedrukt"
                 },
                 "args": []
             }
