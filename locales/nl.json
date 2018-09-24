@@ -100,7 +100,7 @@
           "doorbell": "Test de deurbel"
         },
         "body": {
-          "doorbell": "Gebruik de bovenstaande knop om de deurbel te testen. Klik op volgende om verder te gaan."
+          "doorbell": "Gebruik de bovenstaande knop om de deurbel te testen. Druk tweemaal op de knop om te zorgen dat de deurbel het goede signaal ontvangt. Klik op volgende om verder te gaan."
         }
       },
       "test": {
