@@ -1,6 +1,6 @@
 {
   "id": "nl.klikaanklikuit",
-  "version": "4.0.14",
+  "version": "4.0.15",
   "compatibility": ">=1.5.3",
   "sdk": 2,
   "category": [
@@ -1091,10 +1091,10 @@
     },
     {
       "images": {
-        "large": "/drivers/ACDB-6600/assets/images/large.jpg",
-        "small": "/drivers/ACDB-6600/assets/images/small.jpg"
+        "large": "/drivers/ACDB-6600C/assets/images/large.jpg",
+        "small": "/drivers/ACDB-6600C/assets/images/small.jpg"
       },
-      "icon": "/drivers/ACDB-6600/assets/icon.svg",
+      "icon": "/drivers/ACDB-6600C/assets/icon.svg",
       "capabilities": [
         "alarm_generic"
       ],
@@ -1180,17 +1180,17 @@
           "id": "rf.done"
         }
       ],
-      "id": "ACDB-6600",
+      "id": "ACDB-6600C",
       "name": {
-        "en": "ACDB-6600"
+        "en": "ACDB-6600C"
       }
     },
     {
       "images": {
-        "large": "/drivers/ACDB-6600R/assets/images/large.jpg",
-        "small": "/drivers/ACDB-6600R/assets/images/small.jpg"
+        "large": "/drivers/ACDB-7000A/assets/images/large.png",
+        "small": "/drivers/ACDB-7000A/assets/images/small.png"
       },
-      "icon": "/drivers/ACDB-6600R/assets/icon.svg",
+      "icon": "/drivers/ACDB-7000A/assets/icon.svg",
       "capabilities": [],
       "class": "other",
       "rf": {
@@ -1222,9 +1222,51 @@
           "id": "rf.done"
         }
       ],
-      "id": "ACDB-6600R",
+      "id": "ACDB-7000A",
       "name": {
-        "en": "ACDB-6600 Remote"
+        "en": "ACDB-7000A Remote"
+      }
+    },
+    {
+      "images": {
+        "large": "/drivers/ACDB-7000B/assets/images/large.jpg",
+        "small": "/drivers/ACDB-7000B/assets/images/small.jpg"
+      },
+      "icon": "/drivers/ACDB-7000B/assets/icon.svg",
+      "capabilities": [],
+      "class": "other",
+      "rf": {
+        "debounceTimeout": 500,
+        "minTxInterval": 1000,
+        "dropPendingPayload": false,
+        "signal": "kaku"
+      },
+      "pair": [
+        {
+          "id": "rf.imitate",
+          "options": {
+            "title": "rf.pair.imitate.title.remote",
+            "body": "rf.pair.imitate.body.remote",
+            "svg": "assets/svg/pair.svg"
+          }
+        },
+        {
+          "id": "rf.test",
+          "options": {
+            "svg": "assets/svg/test.svg"
+          },
+          "navigation": {
+            "prev": "rf.imitate",
+            "next": "rf.done"
+          }
+        },
+        {
+          "id": "rf.done"
+        }
+      ],
+      "id": "ACDB-7000B",
+      "name": {
+        "en": "ACDB-7000C Remote"
       }
     },
     {
@@ -1321,48 +1363,6 @@
       "id": "ACDB-7000C",
       "name": {
         "en": "ACDB-7000C"
-      }
-    },
-    {
-      "images": {
-        "large": "/drivers/ACDB-7000CR/assets/images/large.png",
-        "small": "/drivers/ACDB-7000CR/assets/images/small.png"
-      },
-      "icon": "/drivers/ACDB-7000CR/assets/icon.svg",
-      "capabilities": [],
-      "class": "other",
-      "rf": {
-        "debounceTimeout": 500,
-        "minTxInterval": 1000,
-        "dropPendingPayload": false,
-        "signal": "kaku"
-      },
-      "pair": [
-        {
-          "id": "rf.imitate",
-          "options": {
-            "title": "rf.pair.imitate.title.remote",
-            "body": "rf.pair.imitate.body.remote",
-            "svg": "assets/svg/pair.svg"
-          }
-        },
-        {
-          "id": "rf.test",
-          "options": {
-            "svg": "assets/svg/test.svg"
-          },
-          "navigation": {
-            "prev": "rf.imitate",
-            "next": "rf.done"
-          }
-        },
-        {
-          "id": "rf.done"
-        }
-      ],
-      "id": "ACDB-7000CR",
-      "name": {
-        "en": "ACDB-7000C Remote"
       }
     },
     {
@@ -7087,7 +7087,7 @@
   "flow": {
     "actions": [
       {
-        "id": "ACDB-6600:send",
+        "id": "ACDB-6600C:send",
         "title": {
           "en": "Trigger Doorbell",
           "nl": "Laat deurbel afgaan"
@@ -7096,7 +7096,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=ACDB-6600"
+            "filter": "driver_id=ACDB-6600C"
           }
         ]
       },
@@ -7117,7 +7117,7 @@
     ],
     "triggers": [
       {
-        "id": "ACDB-6600R:received",
+        "id": "ACDB-7000A:received",
         "title": {
           "en": "Doorbell is pressed",
           "nl": "Deurbel knop is ingedrukt"
@@ -7126,12 +7126,12 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=ACDB-6600R"
+            "filter": "driver_id=ACDB-7000A"
           }
         ]
       },
       {
-        "id": "ACDB-7000CR:received",
+        "id": "ACDB-7000B:received",
         "title": {
           "en": "Doorbell is pressed",
           "nl": "Deurbel knop is ingedrukt"
@@ -7140,7 +7140,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=ACDB-7000CR"
+            "filter": "driver_id=ACDB-7000B"
           }
         ]
       },

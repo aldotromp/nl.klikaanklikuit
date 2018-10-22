@@ -1,7 +1,7 @@
 {
-    "id": "ACDB-7000CR",
+    "id": "ACDB-7000A",
     "name": {
-        "en": "ACDB-7000C Remote"
+        "en": "ACDB-7000A Remote"
     },
     "$extends": [
         "defaults",

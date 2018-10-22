@@ -4,7 +4,7 @@ const Homey = require('homey');
 const RFDriver = require('homey-rfdriver');
 const util = RFDriver.util;
 
-module.exports = class ACDB6600RDriver extends RFDriver.Driver {
+module.exports = class ACDB70000CDriver extends RFDriver.Driver {
 
     onRFInit(){
         super.onRFInit();

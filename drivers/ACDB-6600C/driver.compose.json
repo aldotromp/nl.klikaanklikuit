@@ -1,7 +1,7 @@
 {
-    "id": "ACDB-6600",
+    "id": "ACDB-6600C",
     "name": {
-        "en": "ACDB-6600"
+        "en": "ACDB-6600C"
     },
     "$extends": [
         "defaults",
