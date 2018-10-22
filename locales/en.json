@@ -100,7 +100,7 @@
           "doorbell": "Test your doorbell"
         },
         "body": {
-          "doorbell": "Use the button above to test your doorbell. Please make sure to click it twice so that the doorbell is correctly triggered. Then press next to continue."
+          "doorbell": "Use the button above to test your doorbell. Press next to continue."
         }
       },
       "test": {

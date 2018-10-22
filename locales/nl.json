@@ -5,7 +5,7 @@
       "choice": {
         "buttons": {
           "codewheel": {
-            "codewheel_switch": "Handmatig lettercodeschijf instellen\u0000"
+            "codewheel_switch": "Handmatig lettercodeshijf instellen\u0000"
           },
           "imitate": {
             "ACDB-6600": "Kopieer deurbel signaal"
@@ -15,22 +15,22 @@
           },
           "generate": {
             "default": "Genereer nieuw signaal",
-            "codewheel": "lettercodeschijf instellen",
+            "codewheel": "lettercodeshijf instellen",
             "dipswitch": "dipswitches instellen"
           }
         },
         "body": {
           "doorbell": "Kies of je het signaal van je deurbel wil kopiëren of dat je de deurbel wil programmeren met een nieuw signaal van Homey.",
-          "codewheel_switch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je handmatig de lettercodeschijf wil instellen.\u0000",
+          "codewheel_switch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je handmatig de lettercodeshijf wil instellen.\u0000",
           "default": "Klik op een van de opties om verder te gaan.",
           "switch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je het apparaat wil programmeren met een nieuw signaal van Homey.",
-          "codewheel": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je de lettercodeschijf handmatig wil instellen.",
+          "codewheel": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je de lettercodeshijf handmatig wil instellen.",
           "dipswitch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je de dipswitches handmatig wil instellen."
         },
         "title": {
           "default": "Kies een van de volgende opties",
           "switch": "Kopieer de afstandsbediening of programmeer met Homey",
-          "codewheel": "Kopieer de afstandsbediening of stel de lettercodeschijfen handmatig in",
+          "codewheel": "Kopieer de afstandsbediening of stel de lettercodeshijfen handmatig in",
           "dipswitch": "Kopieer de afstandsbediening of stel de dipswitches handmatig in"
         }
       },
@@ -100,7 +100,7 @@
           "doorbell": "Test de deurbel"
         },
         "body": {
-          "doorbell": "Gebruik de bovenstaande knop om de deurbel te testen. Druk tweemaal op de knop om te zorgen dat de deurbel het goede signaal ontvangt. Klik op volgende om verder te gaan."
+          "doorbell": "Gebruik de bovenstaande knop om de deurbel te testen. Klik op volgende om verder te gaan."
         }
       },
       "test": {
@@ -134,11 +134,11 @@
       "info": {
         "title": {
           "dipswitch": "Vind de dipswitches op het apparaat",
-          "codewheel": "Vind de lettercodeschijfen op het apparaat"
+          "codewheel": "Vind de lettercodeshijfen op het apparaat"
         },
         "body": {
           "dipswitch": "Vind de dipswitches op het apparaat zoals hierboven aangegeven, klik daarna op volgende.",
-          "codewheel": "Vind de lettercodeschijfen op het apparaat zoals hierboven aangegeven, klik daarna op volgende."
+          "codewheel": "Vind de lettercodeshijfen op het apparaat zoals hierboven aangegeven, klik daarna op volgende."
         }
       },
       "codewheel": {
@@ -149,7 +149,7 @@
           "default": "Configureer de apparaatcode"
         },
         "body": {
-          "default": "Klik op de karakters op de bovenstaande lettercodeschijf of pas de lettercodeschijf op het apparaat aan zodat deze gelijk aan elkaar zijn, klik daarna op volgende."
+          "default": "Klik op de karakters op de bovenstaande lettercodeshijf of pas de lettercodeshijf op het apparaat aan zodat deze gelijk aan elkaar zijn, klik daarna op volgende."
         }
       },
       "dipswitch": {
