@@ -2,14 +2,14 @@
 
 const Homey = require('homey');
 
-class MyApp extends Homey.App {
+class KlikAanKlikUit extends Homey.App {
 
 	onInit() {
 
-		this.log('MyApp is running...');
+		this.log('KlikAanKlikUit is running...');
 
 	}
 
 }
 
-module.exports = MyApp;
+module.exports = KlikAanKlikUit;
