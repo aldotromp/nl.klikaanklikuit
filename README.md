@@ -4,6 +4,9 @@ Adds support for Trust / CoCo / KlikAanKlikUit devices.
 
 ## What's new
 
+### v4.1.0
+Fixed the invalid device data issue. Huge thanks to Geurt Dijker for the continously testing!
+
 ### v4.0.14/15/16
 Fixed some error translations
 Corrected doorbell naming scheme and images to be on par with KlikAanKlikUit.
