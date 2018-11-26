@@ -1,21 +1,21 @@
-# Trust / CoCo / KlikAanKlikUit
+# KlikAanKlikUit / Trust / CoCo
 
-Adds support for Trust / CoCo / KlikAanKlikUit devices.
+Adds support for KlikAanKlikUit / Trust / CoCo devices.
 
 ## What's new
 
 ### v4.1.0
 Fixed the invalid device data issue. Huge thanks to Geurt Dijker for the continously testing!
 
-### v4.0.14/15/16
-Fixed some error translations
-Corrected doorbell naming scheme and images to be on par with KlikAanKlikUit.
-Added some additional error handling for the protocol.
+### v4.0.14
+* Fixed some error translations.
+* Corrected doorbell naming scheme and images to be on par with KlikAanKlikUit.
+* Added some additional error handling for the protocol.
 
 ### v4.0.13
-Changed doorbell devices to have a seperate device for the gong and the button.
-This fixes a issue where the device keeps triggering itself in a flow where both the gong and the button where used.
-If you're using the button in a flow, you'll have to add the button seperately and integrate it again in the flow.
+* Changed doorbell devices to have a seperate device for the gong and the button.
+* This fixes a issue where the device keeps triggering itself in a flow where both the gong and the button where used.
+* If you're using the button in a flow, you'll have to add the button seperately and integrate it again in the flow.
 
 ### v4.0.12
 Changed AC-300, AC-1000 and AC-3500 to kakunew signal. This should fix the "invalid device data" problems for those devices.
