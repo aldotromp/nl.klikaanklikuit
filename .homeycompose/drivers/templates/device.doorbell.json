@@ -15,8 +15,8 @@
         }
     },
     "$_devices": [
-        "ACDB-7000C",
-        "ACDB-6600"
+        "ACDB-7000B",
+        "ACDB-7000C"
     ],
     "$_hash": "migrate.29.c1fbcffa0247ae845701d7f8d3b1f727"
 }

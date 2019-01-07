@@ -1,6 +1,6 @@
 {
   "id": "nl.klikaanklikuit",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "compatibility": ">=1.5.3",
   "sdk": 2,
   "category": [
@@ -1266,7 +1266,7 @@
       ],
       "id": "ACDB-7000B",
       "name": {
-        "en": "ACDB-7000C Remote"
+        "en": "ACDB-7000B Remote"
       }
     },
     {
