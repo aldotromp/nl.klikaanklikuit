@@ -1,0 +1,19 @@
+{
+    "$flow": {
+        "triggers": [
+            {
+                "id": "{{driverId}}:received",
+                "title": {
+                    "en": "Doorbell is pressed",
+                    "nl": "Deurbel knop is ingedrukt"
+                },
+                "args": []
+            }
+        ]
+    },
+    "$_devices": [
+        "ACDB-7000B",
+        "ACDB-7000C"
+    ],
+    "$_hash": "migrate.33.689e722907fb7735d774938558373e60"
+}

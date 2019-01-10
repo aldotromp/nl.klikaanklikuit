@@ -5,7 +5,7 @@
       "choice": {
         "buttons": {
           "codewheel": {
-            "codewheel_switch": "Handmatig lettercodeschijf instellen\u0000"
+            "codewheel_switch": "Handmatig lettercodeshijf instellen\u0000"
           },
           "imitate": {
             "ACDB-6600": "Kopieer deurbel signaal"
@@ -15,16 +15,16 @@
           },
           "generate": {
             "default": "Genereer nieuw signaal",
-            "codewheel": "lettercodeschijf instellen",
+            "codewheel": "lettercodeshijf instellen",
             "dipswitch": "dipswitches instellen"
           }
         },
         "body": {
           "doorbell": "Kies of je het signaal van je deurbel wil kopiëren of dat je de deurbel wil programmeren met een nieuw signaal van Homey.",
-          "codewheel_switch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je handmatig de lettercodeschijf wil instellen.\u0000",
+          "codewheel_switch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je handmatig de lettercodeshijf wil instellen.\u0000",
           "default": "Klik op een van de opties om verder te gaan.",
           "switch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je het apparaat wil programmeren met een nieuw signaal van Homey.",
-          "codewheel": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je de lettercodeschijf handmatig wil instellen.",
+          "codewheel": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je de lettercodeshijf handmatig wil instellen.",
           "dipswitch": "Kies of je het signaal van een gekoppelde afstandsbediening wil kopiëren of dat je de dipswitches handmatig wil instellen."
         },
         "title": {
@@ -77,7 +77,7 @@
       "program": {
         "body": {
           "multiswitch": "Druk op de programmeer knop voor het kanaal dat gekoppeld moet worden. Het lampje voor het gekozen kanaal moet gaan knipperen wanneer de knop losgelaten wordt. Klik daarna op 'Programmeer.<p class=\"notice\">(Let op. Als je problemen ondervind bij het koppelen van het kanaal probeer het kanaal te resetten door de programmeer knop 10 seconden in te houden tot het lampje gaat knipperen en vervolgens de programmeer nog 1 keer in te drukken.)</p>",
-          "doorbell": "Druk op de programmeer knop, het lampje op de deurbel moet gaan knipperen wanneer de knop losgelaten wordt. Klik daarna op 'Programmeer'.<p class=\"notice\">(Let op. Als je problemen ondervind bij het koppelen van je deurbel probeer dan deze te resetten door de programmeer in te houden tot het lampje gaat knipperen. Druk vervolgens de knop nog 1 keer in om het geheugen te wissen.)</p>",
+          "doorbell": "Druk op de programmeer knop, het lampje op de deurbel moet gaan knipperen wanneer de knop losgelaten wordt. Klik daarna op 'Programmeer'.",
           "socket": "Druk op de programmeer knop, het lampje op de contactdoos moet gaan knipperen wanneer de knop losgelaten wordt. Klik daarna op 'Programmeer'.<p class=\"notice\">(Let op. Als je problemen ondervind bij het koppelen van je apparaat probeer het apparaat te resetten door de programmeer knop 10 seconden in te houden tot het lampje gaat knipperen en vervolgens de programmeer nog 1 keer in te drukken.)</p>",
           "AFR-100": "Druk op de programmeer knop van de fitting. Het lampje op de fitting hoort te gaan knipperen wanneer het knopje losgelaten wordt. Klik op 'Programmeer' wanneer de fitting in programmeer modus zit.",
           "build_in": "Druk op de programmeer knop van het apparaat om hem in programeer modus te zetten. Klik daarna op 'Programmeer'.",
@@ -149,7 +149,7 @@
           "default": "Configureer de apparaatcode"
         },
         "body": {
-          "default": "Klik op de karakters op de bovenstaande lettercodeschijf of pas de lettercodeschijf op het apparaat aan zodat deze gelijk aan elkaar zijn, klik daarna op volgende."
+          "default": "Klik op de karakters op de bovenstaande lettercodeshijf of pas de lettercodeshijf op het apparaat aan zodat deze gelijk aan elkaar zijn, klik daarna op volgende."
         }
       },
       "dipswitch": {

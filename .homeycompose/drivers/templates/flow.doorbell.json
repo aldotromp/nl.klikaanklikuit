@@ -1,16 +1,5 @@
 {
     "$flow": {
-        "triggers": [
-            {
-                "id": "{{driverId}}:received",
-                "title": {
-                    "en": "Doorbell is pressed",
-                    "nl": "Deurbel knop is ingedrukt",
-                    "de": "Türklingel ist gedrückt"
-                },
-                "args": []
-            }
-        ],
         "actions": [
             {
                 "id": "{{driverId}}:send",

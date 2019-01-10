@@ -7,7 +7,6 @@
         "defaults",
         "images.png",
         "device.socket",
-        "rf.kakuold",
-        "pair.socket.old"
+        "pair.socket"
     ]
 }
