@@ -5,7 +5,8 @@
                 "id": "{{driverId}}:received",
                 "title": {
                     "en": "Button is pressed",
-                    "nl": "Knop is ingedrukt"
+                    "nl": "Knop is ingedrukt",
+                    "de": "Taste ist gedrückt"
                 },
                 "args": [
                     {
@@ -16,14 +17,16 @@
                                 "id": "00",
                                 "label": {
                                     "en": "Left Button",
-                                    "nl": "Linker Knop"
+                                    "nl": "Linker Knop",
+                                    "de": "Links-Taste"
                                 }
                             },
                             {
                                 "id": "01",
                                 "label": {
                                     "en": "Right Button",
-                                    "nl": "Rechter Knop"
+                                    "nl": "Rechter Knop",
+                                    "de": "Rechts-Taste"
                                 }
                             }
                         ]
@@ -36,14 +39,16 @@
                                 "id": "1",
                                 "label": {
                                     "en": "On",
-                                    "nl": "Aan"
+                                    "nl": "Aan",
+                                    "de": "An"
                                 }
                             },
                             {
                                 "id": "0",
                                 "label": {
                                     "en": "Off",
-                                    "nl": "Uit"
+                                    "nl": "Uit",
+                                    "de": "Aus"
                                 }
                             }
                         ]

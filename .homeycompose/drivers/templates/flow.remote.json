@@ -5,7 +5,8 @@
                 "id": "{{driverId}}:received",
                 "title": {
                     "en": "Button is pressed",
-                    "nl": "Knop is ingedrukt"
+                    "nl": "Knop is ingedrukt",
+                    "de": "Taste ist gedrückt"                  
                 },
                 "args": [
                     {
@@ -16,28 +17,32 @@
                                 "id": "00",
                                 "label": {
                                     "en": "Channel I",
-                                    "nl": "Kanaal I"
+                                    "nl": "Kanaal I",
+                                    "de": "Kanal I"
                                 }
                             },
                             {
                                 "id": "01",
                                 "label": {
                                     "en": "Channel II",
-                                    "nl": "Kanaal II"
+                                    "nl": "Kanaal II",
+                                    "de": "Kanal II"
                                 }
                             },
                             {
                                 "id": "10",
                                 "label": {
                                     "en": "Channel III",
-                                    "nl": "Kanaal III"
+                                    "nl": "Kanaal III",
+                                    "de": "Kanal III"
                                 }
                             },
                             {
                                 "id": "11",
                                 "label": {
                                     "en": "Channel IV",
-                                    "nl": "Kanaal IV"
+                                    "nl": "Kanaal IV",
+                                    "de": "Kanal IV"
                                 }
                             }
                         ]
@@ -50,35 +55,40 @@
                                 "id": "00",
                                 "label": {
                                     "en": "Button 1",
-                                    "nl": "Knop 1"
+                                    "nl": "Knop 1",
+                                    "de": "Taste 1"
                                 }
                             },
                             {
                                 "id": "01",
                                 "label": {
                                     "en": "Button 2",
-                                    "nl": "Knop 2"
+                                    "nl": "Knop 2",
+                                    "de": "Taste 2"
                                 }
                             },
                             {
                                 "id": "10",
                                 "label": {
                                     "en": "Button 3",
-                                    "nl": "Knop 3"
+                                    "nl": "Knop 3",
+                                    "de": "Taste 3"
                                 }
                             },
                             {
                                 "id": "11",
                                 "label": {
                                     "en": "Button 4",
-                                    "nl": "Knop 4"
+                                    "nl": "Knop 4",
+                                    "de": "Taste 4"
                                 }
                             },
                             {
                                 "id": "g",
                                 "label": {
                                     "en": "Group Button",
-                                    "nl": "Groep Knop"
+                                    "nl": "Groep Knop",
+                                    "de": "Gruppentaste"
                                 }
                             }
                         ]
@@ -91,14 +101,16 @@
                                 "id": "1",
                                 "label": {
                                     "en": "On",
-                                    "nl": "Aan"
+                                    "nl": "Aan",
+                                    "de": "An"
                                 }
                             },
                             {
                                 "id": "0",
                                 "label": {
                                     "en": "Off",
-                                    "nl": "Uit"
+                                    "nl": "Uit",
+                                    "de": "Aus"
                                 }
                             }
                         ]

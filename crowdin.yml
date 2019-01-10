@@ -1,0 +1,8 @@
+files:
+  - source: /locales/en.json
+    translation: /locales/%two_letters_code%.json
+  - source: /.homeycompose/locales/en.*
+    translation: /.homeycompose/locales/%two_letters_code%.%file_name%.json
+    translation_replace: {
+    "en." : ""
+    }

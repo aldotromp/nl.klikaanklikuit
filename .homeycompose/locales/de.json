@@ -1,0 +1,92 @@
+{
+    "rf": {
+        "commands": null,
+        "pair": {
+            "choice": {
+                "buttons": {
+                    "codewheel": {
+                        "codewheel_switch": "Stelle die Coderäder manuell ein."
+                    },
+                    "imitate": {
+                        "ACDB-6600": "Kopiere das Türklingelsignal."
+                    }
+                },
+                "body": {
+                    "doorbell": "Wähle aus, ob Du das Signal deiner Türklingel kopieren oder lieber ein neues Signal für die Koppelung mit Deiner Türklingel generieren möchtest.",
+                    "codewheel_switch": "Wähle aus, ob Du ein bereits bestehendes Signal von einer gekoppelten Fernbedienung kopieren oder lieber manuell die Coderäder einstellen möchtest, um dieses Gerät zu koppeln."
+                }
+            },
+            "imitate": {
+                "body": {
+                    "old_blinds": "Drücke auf die Hoch-/Runter-Taste, die mit Deinen Jalousien gekoppelt ist.",
+                    "socket": "Drücke auf die Taste, die mit Deiner Steckdose gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
+                    "blinds": "Drücke auf die Hoch-/Runter-Taste, die mit Deinen Jalousien gekoppelt ist.<p class=\"notice\">(Achtung: Für dieses Gerät unterstützt Homey nur Transmitter, deren Produkt-Code mit A beginnt. Falls Du eine alte Fernbedienung für dieses Gerät benutzt, dann lass Homey bitte ein neues Signal für das Gerät generieren.)</p>",
+                    "AFR-100": "Drücke auf die Taste, die mit Deinem Verbindungsstück gekoppelt ist.",
+                    "build_in": "Drücke auf die Taste, die mit Deinem Gerät gekoppelt ist.",
+                    "sensor": "Löse Deinen Sensor manuell aus oder stelle den LEARN-Schalter auf DEL und dann zurück auf SET.",
+                    "doorbell": "Drücke auf die Taste für Deine Türklingel.",
+                    "ALED-2709": "Drücke auf die Taste, die mit Deiner Lampe gekoppelt ist.",
+                    "AMST-606": "Verbinde die zwei Teile Deines Sensors und trenne die Verbindung dann wieder."
+                },
+                "title": {
+                    "socket": "Kopiere das Signal Deiner Fernbedienung.",
+                    "ABST-604": "Kopple Deinen Nachtsensor.",
+                    "AMST-606": "Kopple Deinen Kontaktsensor.",
+                    "sensor": "Kopple Deinen Sensor."
+                }
+            },
+            "test_switch": {
+                "title": {
+                    "socket": "Teste Deine Steckdose.",
+                    "AFR-100": "Teste Dein Verbindungsstück.",
+                    "build_in": "Teste Dein Gerät.",
+                    "ALED-2709": "Teste Deine Lampe."
+                },
+                "body": {
+                    "socket": "Verwende den Schalter oben, um Deine Steckdose zu testen. Drücke auf „weiter“, um fortzufahren.",
+                    "AFR-100": "Verwende den Schalter oben, um Dein Verbindungsstück zu testen. Drücke auf „weiter“, um fortzufahren.",
+                    "build_in": "Verwende den Schalter oben, um Dein Gerät zu testen. Drücke auf „weiter“, um fortzufahren.",
+                    "ALED-2709": "Verwende den Schalter oben, um Deine Lampe zu testen. Drücke auf „weiter“, um fortzufahren."
+                }
+            },
+            "program": {
+                "body": {
+                    "socket": "Drücke auf die Programmieren-Taste an Deiner Steckdose. Die Leuchte an der Steckdose sollte zu blinken beginnen, wenn Du die Taste loslässt. Wenn der Koppelungsmodus aktiv ist, drücke „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze das Gerät zurück, indem Du die Programmieren-Taste 10 Sekunden lang gedrückt hältst, bis die Leuchte blinkt. Drücke dann noch einmal die Programmieren-Taste.)</p>",
+                    "AFR-100": "Drücke auf die Programmieren-Taste an Deinem Verbindungsstück. Die Leuchte an dem Verbindungsstück sollte zu blinken beginnen, wenn Du die Taste loslässt. Wenn der Koppelungsmodus aktiv ist, drücke „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du die Programmieren-Taste 10 Sekunden lang gedrückt hältst, bis die Leuchte blinkt. Drücke dann noch einmal die Programmieren-Taste.)</p>",
+                    "build_in": "Drücke auf die Programmieren-Taste an Deinem Gerät, um es in den Koppelungsmodus zu versetzen, und drücke dann auf „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du die Programmieren-Taste 10 Sekunden lang gedrückt hältst, bis die Leuchte blinkt. Drücke dann noch einmal die Programmieren-Taste.)</p>",
+                    "simple_socket": "Trenne die Steckdose für ein paar Sekunden vom Strom und verbinde sie dann wieder. Die Leuchte sollte nun blinken. Wenn der Koppelungsmodus aktiv ist, drücke „Programmieren“.<p class=\"notice\">(Achtung: Falls Du bei der Koppelung Schwierigkeiten hast, dann setze Dein Gerät zurück, indem Du es in den Koppelungsmodus versetzt und die Gruppe-Taste auf der Fernbedienung 5 Sekunden lang gedrückt hältst. Nun sollten alle Adressen aus der Steckdose gelöscht sein.)</p>",
+                    "ALED-003": "Entferne die eine Batterie aus der Lampe und setze sie erneut ein, um die Lampe in den Koppelungsmodus zu versetzen. Die Leuchte sollte nun langsam blinken. Drücke nun auf „Programmieren“.",
+                    "ALED-2709": "Schalte das Licht innerhalb von 15 Sekunden 3-mal manuell oder 5-mal mit deiner Fernbedienung ein und wieder aus, um die Lampe in den Koppelungsmodus zu versetzen. Sie sollte nun blinken. Drücke dann auf „Programmieren“.<p class=\"notice\">(Achtung: Falls die Koppelung fehlschlägt und sich die Lampe nach dem Drücken auf die Programmieren-Taste 5-mal statt 2-mal an- und ausschaltet, dann ist der Speicher Deiner Lampe voll. Du kannst den Speicher zurücksetzen, indem Du die Lampe in den Koppelungsmodus versetzt und die Ausschalttaste einer KlikAanKlikUit-Fernbedienung 5-mal drückst. Falls dies nicht funktioniert, sieh bitte im Handbuch zu dem Gerät nach, wie man den Speicher zurücksetzt.)</p>"
+                },
+                "title": {
+                    "build_in": "Versetze das Gerät in den Koppelungsmodus."
+                }
+            },
+            "test_button": {
+                "title": {
+                    "doorbell": "Teste Deine Türklingel."
+                },
+                "body": {
+                    "doorbell": "Verwende die Taste oben, um Deine Türklingel zu testen. Drücke auf „weiter“, um fortzufahren."
+                }
+            },
+            "test": {
+                "title": {
+                    "sensor": "Teste Deinen Sensor.",
+                    "ABST-604": "Teste Deinen Nachtsensor.",
+                    "motion_sensor": "Kopple Deinen Bewegungssensor.",
+                    "blinds": "Teste Deine Jalousien.",
+                    "AMST-606": "Teste Deinen Kontaktsensor."
+                },
+                "body": {
+                    "sensor": "Löse den Sensor manuell aus oder verwende den LEARN-Schalter auf Deinem Sensor, um das Signal zu testen. Drücke auf „weiter“, um fortzufahren.",
+                    "blinds": "Verwende die Tasten oben, um Deine Jalousien zu testen. Drücke auf „weiter“, um fortzufahren.",
+                    "AMST-606": "Löse Deinen Sensor manuell aus, um das Signal zu testen. Drücke auf „weiter“, um fortzufahren."
+                }
+            }
+        },
+        "error": {
+            "cannot_pair_with_group_button": "Gerät kann nicht über die Gruppe-Taste gekoppelt werden."
+        }
+    }
+}

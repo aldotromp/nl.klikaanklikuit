@@ -5,7 +5,8 @@
                 "id": "{{driverId}}:received",
                 "title": {
                     "en": "Button is pressed",
-                    "nl": "Knop is ingedrukt"
+                    "nl": "Knop is ingedrukt",
+                    "de": "Taste ist gedrückt"                   
                 },
                 "args": [
                     {
@@ -16,14 +17,16 @@
                                 "id": "1",
                                 "label": {
                                     "en": "On",
-                                    "nl": "Aan"
+                                    "nl": "Aan",
+                                    "de": "An"
                                 }
                             },
                             {
                                 "id": "0",
                                 "label": {
                                     "en": "Off",
-                                    "nl": "Uit"
+                                    "nl": "Uit",
+                                    "de": "Aus"
                                 }
                             }
                         ]

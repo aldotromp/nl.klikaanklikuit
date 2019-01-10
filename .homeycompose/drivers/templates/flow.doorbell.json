@@ -5,7 +5,8 @@
                 "id": "{{driverId}}:send",
                 "title": {
                     "en": "Trigger Doorbell",
-                    "nl": "Laat deurbel afgaan"
+                    "nl": "Laat deurbel afgaan",
+                    "de": "Türklingel auslösen"
                 },
                 "args": []
             }
