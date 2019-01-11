@@ -4,6 +4,10 @@ Adds support for KlikAanKlikUit / Trust / CoCo devices.
 
 ## What's new
 
+### v4.1.1
+Corrected doorbell structure and fixed ACDB-7000B.
+Ensure correct pairing signal for sockets.
+
 ### v4.1.0
 Fixed the invalid device data issue. Huge thanks to Geurt Dijker for the continously testing!
 

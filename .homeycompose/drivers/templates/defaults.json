@@ -8,7 +8,6 @@
     "class": "other",
     "rf": {
         "debounceTimeout": 500,
-        "minTxInterval": 1000,
         "dropPendingPayload": false,
         "signal": "kaku"
     },
