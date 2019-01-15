@@ -73,8 +73,5 @@
     "$extends": [
         "defaults",
         "pair.remote"
-    ],
-    "rf": {
-        "signal": "smartwares"
-    }
+    ]
 }
