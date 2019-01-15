@@ -4006,9 +4006,7 @@
       "capabilities": [],
       "class": "other",
       "rf": {
-        "debounceTimeout": 500,
-        "dropPendingPayload": false,
-        "signal": "kaku"
+        "signal": "smartwares"
       },
       "pair": [
         {
@@ -8442,6 +8440,34 @@
         "sensitivity": 0.5,
         "minimalLength": 12,
         "maximalLength": 12
+      },
+      "smartwares": {
+        "sof": [
+          265,
+          2580
+        ],
+        "eof": [
+          265
+        ],
+        "words": [
+          [
+            265,
+            295,
+            265,
+            1280
+          ],
+          [
+            265,
+            1280,
+            265,
+            295
+          ]
+        ],
+        "interval": 10665,
+        "sensitivity": 0.4,
+        "repetitions": 10,
+        "minimalLength": 32,
+        "maximalLength": 32
       }
     }
   }
