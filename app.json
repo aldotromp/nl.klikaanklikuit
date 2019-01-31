@@ -4006,7 +4006,9 @@
       "capabilities": [],
       "class": "other",
       "rf": {
-        "signal": "smartwares"
+        "debounceTimeout": 500,
+        "dropPendingPayload": false,
+        "signal": "kaku"
       },
       "pair": [
         {
@@ -4047,9 +4049,7 @@
       ],
       "class": "socket",
       "rf": {
-        "debounceTimeout": 500,
-        "dropPendingPayload": false,
-        "signal": "kaku"
+        "signal": "smartwares"
       },
       "pair": [
         {
