@@ -1,7 +1,7 @@
 {
   "id": "nl.klikaanklikuit",
-  "version": "4.1.3",
-  "compatibility": ">=1.5.3",
+  "version": "4.2.0",
+  "compatibility": ">=1.5.13",
   "sdk": 2,
   "category": [
     "appliances",
@@ -4049,7 +4049,9 @@
       ],
       "class": "socket",
       "rf": {
-        "signal": "smartwares"
+        "debounceTimeout": 500,
+        "dropPendingPayload": false,
+        "signal": "kaku"
       },
       "pair": [
         {
@@ -8350,29 +8352,29 @@
     "433": {
       "kaku": {
         "sof": [
-          225,
-          2774
+          265,
+          2580
         ],
         "eof": [
-          236
+          265
         ],
         "words": [
           [
-            240,
-            320,
-            240,
-            1338
+            265,
+            295,
+            265,
+            1280
           ],
           [
-            240,
-            1338,
-            240,
-            320
+            265,
+            1280,
+            265,
+            295
           ]
         ],
-        "interval": 10150,
-        "sensitivity": 0.5,
-        "repetitions": 5,
+        "interval": 10665,
+        "sensitivity": 0.4,
+        "repetitions": 10,
         "minimalLength": 32,
         "maximalLength": 36
       },
@@ -8386,27 +8388,27 @@
         ],
         "words": [
           [
-            240,
-            308,
-            240,
-            1348
+            265,
+            295,
+            265,
+            1280
           ],
           [
-            240,
-            1338,
-            240,
-            320
+            265,
+            1280,
+            265,
+            295
           ],
           [
-            240,
-            308,
-            240,
-            308
+            265,
+            295,
+            265,
+            295
           ]
         ],
-        "interval": 10150,
-        "sensitivity": 0.5,
-        "repetitions": 5,
+        "interval": 10665,
+        "sensitivity": 0.4,
+        "repetitions": 10,
         "minimalLength": 32,
         "maximalLength": 36
       },
@@ -8440,34 +8442,6 @@
         "sensitivity": 0.5,
         "minimalLength": 12,
         "maximalLength": 12
-      },
-      "smartwares": {
-        "sof": [
-          265,
-          2580
-        ],
-        "eof": [
-          265
-        ],
-        "words": [
-          [
-            265,
-            295,
-            265,
-            1280
-          ],
-          [
-            265,
-            1280,
-            265,
-            295
-          ]
-        ],
-        "interval": 10665,
-        "sensitivity": 0.4,
-        "repetitions": 10,
-        "minimalLength": 32,
-        "maximalLength": 32
       }
     }
   }

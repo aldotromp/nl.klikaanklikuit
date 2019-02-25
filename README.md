@@ -4,6 +4,10 @@ Adds support for KlikAanKlikUit / Trust / CoCo devices.
 
 ## What's new
 
+### v4.2.0
+Changed signal to work better with Homey software version 1.5.13 and higher.
+This should resolve sockets that are hard to pair directly.
+
 ### v4.1.1
 Corrected doorbell structure and fixed ACDB-7000B.
 Ensure correct pairing signal for sockets.

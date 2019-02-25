@@ -1,13 +1,13 @@
 {
-    "sof": [225, 2774],
-    "eof": [236],
+    "sof": [265, 2580],
+    "eof": [265],
     "words": [
-        [240, 320, 240, 1338],
-        [240, 1338, 240, 320]
+        [265, 295, 265, 1280],
+		[265, 1280, 265, 295]
     ],
-    "interval": 10150,
-    "sensitivity": 0.5,
-    "repetitions": 5,
+    "interval": 10665,
+    "sensitivity": 0.4,
+    "repetitions": 10,
     "minimalLength": 32,
     "maximalLength": 36
 }

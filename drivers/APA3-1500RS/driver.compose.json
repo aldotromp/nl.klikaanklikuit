@@ -29,8 +29,5 @@
 		"defaults",
 		"device.socket",
 		"pair.socket"
-	],
-    "rf": {
-        "signal": "smartwares"
-    }
+	]
 }
