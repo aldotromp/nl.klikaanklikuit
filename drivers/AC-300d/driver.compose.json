@@ -1,13 +1,13 @@
 {
-    "id": "AC-300N",
+    "id": "AC-300d",
     "name": {
         "en": "AC-300"
     },
-    "deprecated": true,
     "$extends": [
         "defaults",
         "images.png",
         "device.socket",
+        "capabilities.dim",
         "pair.socket"
     ]
 }

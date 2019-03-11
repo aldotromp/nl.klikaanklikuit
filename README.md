@@ -4,6 +4,9 @@ Adds support for KlikAanKlikUit / Trust / CoCo devices.
 
 ## What's new
 
+### v4.2.1
+Changed AC-300 to be a dimmer again. Please re-pair your device to use this functionality.
+
 ### v4.2.0
 Changed signal to work better with Homey software version 1.5.13 and higher.
 This should resolve sockets that are hard to pair directly.
