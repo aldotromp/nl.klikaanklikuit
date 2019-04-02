@@ -40,6 +40,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -86,6 +87,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -342,6 +344,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -449,6 +452,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -556,6 +560,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -663,6 +668,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -988,6 +994,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -1189,6 +1196,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -1230,6 +1238,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -1478,6 +1487,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -1585,6 +1595,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -1910,6 +1921,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -2235,6 +2247,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -2637,6 +2650,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -2853,6 +2867,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -2958,6 +2973,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -3001,6 +3017,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -3860,6 +3877,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -3903,6 +3921,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -4008,6 +4027,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -4051,6 +4071,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -4156,6 +4177,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -4199,6 +4221,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -4306,6 +4329,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -4550,6 +4574,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "settings": [
@@ -4662,6 +4687,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -4923,6 +4949,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -5030,6 +5057,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -5135,6 +5163,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "settings": [
@@ -5214,6 +5243,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "settings": [
@@ -5295,6 +5325,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
@@ -5537,6 +5568,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "settings": [
@@ -5697,6 +5729,7 @@
       "rf": {
         "debounceTimeout": 500,
         "dropPendingPayload": false,
+        "minTxInterval": 500,
         "signal": "kaku"
       },
       "pair": [
