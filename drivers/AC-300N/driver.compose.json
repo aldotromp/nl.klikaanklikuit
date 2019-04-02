@@ -3,7 +3,6 @@
     "name": {
         "en": "AC-300"
     },
-    "deprecated": true,
     "$extends": [
         "defaults",
         "images.png",

@@ -1,6 +1,6 @@
 {
   "id": "nl.klikaanklikuit",
-  "version": "4.2.1",
+  "version": "4.2.0",
   "compatibility": ">=1.5.13",
   "sdk": 2,
   "category": [
@@ -331,115 +331,6 @@
     },
     {
       "images": {
-        "large": "/drivers/AC-300d/assets/images/large.png",
-        "small": "/drivers/AC-300d/assets/images/small.png"
-      },
-      "icon": "/drivers/AC-300d/assets/icon.svg",
-      "capabilities": [
-        "onoff",
-        "dim"
-      ],
-      "class": "socket",
-      "rf": {
-        "debounceTimeout": 500,
-        "minTxInterval": 2000,
-        "dropPendingPayload": false,
-        "signal": "kakudim"
-      },
-      "pair": [
-        {
-          "id": "rf.choice",
-          "options": {
-            "title": "rf.pair.choice.title.switch",
-            "body": "rf.pair.choice.body.switch",
-            "svgHeight": "65vh",
-            "choices": [
-              {
-                "name": "rf.pair.choice.buttons.copy.default",
-                "view": "rf.imitate",
-                "svg": "assets/svg/AYCT-102_pair.svg"
-              },
-              {
-                "name": "rf.pair.choice.buttons.generate.default",
-                "view": "rf.program",
-                "svg": "assets/svg/pair.svg"
-              }
-            ]
-          }
-        },
-        {
-          "id": "rf.imitate",
-          "options": {
-            "title": "rf.pair.imitate.title.socket",
-            "body": "rf.pair.imitate.body.socket",
-            "svg": "assets/svg/AYCT-102_pair.svg"
-          },
-          "navigation": {
-            "prev": "rf.choice"
-          }
-        },
-        {
-          "id": "rf.test_switch.2",
-          "options": {
-            "initWithDeviceData": true,
-            "title": "rf.pair.test_switch.title.socket",
-            "body": "rf.pair.test_switch.body.socket"
-          },
-          "navigation": {
-            "prev": "rf.imitate",
-            "next": "choose_slave.2"
-          }
-        },
-        {
-          "id": "choose_slave.2",
-          "template": "choose_slave",
-          "navigation": {
-            "prev": "rf.test_switch.2",
-            "next": "rf.done"
-          }
-        },
-        {
-          "id": "rf.program",
-          "options": {
-            "title": "rf.pair.program.title.socket",
-            "body": "rf.pair.program.body.socket",
-            "svg": "assets/svg/pair.svg"
-          },
-          "navigation": {
-            "prev": "rf.choice"
-          }
-        },
-        {
-          "id": "rf.test_switch",
-          "options": {
-            "title": "rf.pair.test_switch.title.socket",
-            "body": "rf.pair.test_switch.body.socket",
-            "initWithDeviceData": true
-          },
-          "navigation": {
-            "prev": "rf.program",
-            "next": "choose_slave"
-          }
-        },
-        {
-          "id": "choose_slave",
-          "template": "choose_slave",
-          "navigation": {
-            "prev": "rf.test_switch",
-            "next": "rf.done"
-          }
-        },
-        {
-          "id": "rf.done"
-        }
-      ],
-      "id": "AC-300d",
-      "name": {
-        "en": "AC-300"
-      }
-    },
-    {
-      "images": {
         "large": "/drivers/AC-300N/assets/images/large.png",
         "small": "/drivers/AC-300N/assets/images/small.png"
       },
@@ -543,8 +434,7 @@
       "id": "AC-300N",
       "name": {
         "en": "AC-300"
-      },
-      "deprecated": true
+      }
     },
     {
       "images": {
