@@ -1,0 +1,29 @@
+{
+  "id": "nl.klikaanklikuit",
+  "version": "4.2.2",
+  "compatibility": ">=1.5.13",
+  "sdk": 2,
+  "category": [
+    "appliances",
+    "lights",
+    "security"
+  ],
+  "name": {
+    "en": "KlikAanKlikUit",
+    "nl": "KlikAanKlikUit"
+  },
+  "description": {
+    "en": "Give Homey the ability to control your KlikAanKlikUit devices",
+    "nl": "Laat Homey KlikAanKlikUit modules aansturen."
+  },
+  "author": {
+    "name": "Athom B.V."
+  },
+  "images": {
+    "large": "./assets/images/large.png",
+    "small": "./assets/images/small.png"
+  },
+  "permissions": [
+    "homey:wireless:433"
+  ]
+}
