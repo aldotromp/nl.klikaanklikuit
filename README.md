@@ -3,6 +3,10 @@
 Adds support for KlikAanKlikUit / Trust / CoCo devices.
 
 ## What's new
+Improved dimmer signal handling
+
+### v4.2.3
+Added signal improvements for dimmers. This should prevent the invalid data error for dimmer devices.
 
 ### v4.2.0
 Changed signal to work better with Homey software version 1.5.13 and higher.
