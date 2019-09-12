@@ -3,6 +3,9 @@
     "name": {
         "en": "KCT-101"
     },
+    "energy": {
+        "batteries": [ "A23" ]
+    },
     "$extends": [
         "defaults",
         "pair.remote",

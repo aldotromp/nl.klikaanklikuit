@@ -3,6 +3,12 @@
     "name": {
         "en": "APIR-2150"
     },
+    "energy": {
+        "batteries": [
+            "AAA",
+            "AAA"
+        ]
+    },
     "$extends": [
         "defaults",
         "images.png",

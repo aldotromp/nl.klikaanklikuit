@@ -3,6 +3,12 @@
     "name": {
         "en": "ABST-604"
     },
+    "energy": {
+        "batteries": [
+            "AAA",
+            "AAA"
+        ]
+    },
     "$pairOptions": {
         "rf.imitate": {
             "title": "rf.pair.imitate.title.ABST-604"

@@ -3,6 +3,12 @@
     "name": {
         "en": "AWST-6000"
     },
+    "energy": {
+        "batteries": [
+            "AAA",
+            "AAA"
+        ]
+    },
     "$extends": [
         "defaults",
         "images.png",

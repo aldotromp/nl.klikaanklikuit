@@ -3,6 +3,9 @@
     "name": {
         "en": "ACDB-7000B Remote"
     },
+    "energy": {
+        "batteries": [ "A23" ]
+    },
     "$extends": [
         "defaults",
         "pair.remote",

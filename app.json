@@ -1,7 +1,7 @@
 {
   "id": "nl.klikaanklikuit",
   "version": "4.2.4",
-  "compatibility": ">=1.5.13",
+  "compatibility": ">=3.0.0",
   "sdk": 2,
   "category": [
     "appliances",
@@ -72,6 +72,12 @@
       "id": "ABST-604",
       "name": {
         "en": "ABST-604"
+      },
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA"
+        ]
       }
     },
     {
@@ -1183,6 +1189,13 @@
       "id": "ACDB-6600C",
       "name": {
         "en": "ACDB-6600C"
+      },
+      "energy": {
+        "batteries": [
+          "AA",
+          "AA",
+          "AA"
+        ]
       }
     },
     {
@@ -1225,6 +1238,11 @@
       "id": "ACDB-7000A",
       "name": {
         "en": "ACDB-7000A Remote"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -1267,6 +1285,11 @@
       "id": "ACDB-7000B",
       "name": {
         "en": "ACDB-7000B Remote"
+      },
+      "energy": {
+        "batteries": [
+          "A23"
+        ]
       }
     },
     {
@@ -3002,6 +3025,11 @@
       "id": "AKCT-510",
       "name": {
         "en": "AKCT-510"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -3094,6 +3122,13 @@
       "id": "ALED-003",
       "name": {
         "en": "ALED-003"
+      },
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA",
+          "AAA"
+        ]
       }
     },
     {
@@ -3187,6 +3222,10 @@
       "id": "ALED-2009",
       "name": {
         "en": "ALED-2009"
+      },
+      "energy": {
+        "usageOn": 9,
+        "usageOff": 1
       }
     },
     {
@@ -3280,6 +3319,10 @@
       "id": "ALED-2709",
       "name": {
         "en": "ALED-2709"
+      },
+      "energy": {
+        "usageOn": 9,
+        "usageOff": 1
       }
     },
     {
@@ -3373,6 +3416,10 @@
       "id": "ALED-EC2206",
       "name": {
         "en": "ALED-EC2206"
+      },
+      "energy": {
+        "usageOn": 6,
+        "usageOff": 0.5
       }
     },
     {
@@ -3466,6 +3513,10 @@
       "id": "ALED-G2706",
       "name": {
         "en": "ALED-G2706"
+      },
+      "energy": {
+        "usageOn": 6,
+        "usageOff": 1
       }
     },
     {
@@ -3559,6 +3610,10 @@
       "id": "ALED-MR2705",
       "name": {
         "en": "ALED-MR2705"
+      },
+      "energy": {
+        "usageOn": 5,
+        "usageOff": 1
       }
     },
     {
@@ -3610,6 +3665,11 @@
       "id": "AMST-606",
       "name": {
         "en": "AMST-606"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       },
       "settings": [
         {
@@ -3906,6 +3966,11 @@
       "id": "APA2-2300R",
       "name": {
         "en": "APA2-2300R"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -4056,6 +4121,11 @@
       "id": "APA3-1500R",
       "name": {
         "en": "APA3-1500R"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -4206,6 +4276,11 @@
       "id": "APC3-2300R",
       "name": {
         "en": "APC3-2300R"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -4559,6 +4634,12 @@
       "id": "APIR-2150",
       "name": {
         "en": "APIR-2150"
+      },
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA"
+        ]
       }
     },
     {
@@ -4716,6 +4797,12 @@
       "id": "ATMT-502",
       "name": {
         "en": "ATMT-502"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032",
+          "A23"
+        ]
       }
     },
     {
@@ -5230,6 +5317,11 @@
       "id": "AWMT-003",
       "name": {
         "en": "AWMT-003"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -5555,6 +5647,12 @@
       "id": "AWST-6000",
       "name": {
         "en": "AWST-6000"
+      },
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA"
+        ]
       }
     },
     {
@@ -5635,6 +5733,11 @@
       "id": "AWST-8800",
       "name": {
         "en": "AWST-8800"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -5716,6 +5819,11 @@
       "id": "AWST-8802",
       "name": {
         "en": "AWST-8802"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -5758,6 +5866,11 @@
       "id": "AYCT-102",
       "name": {
         "en": "AYCT-102"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -5798,6 +5911,11 @@
       "id": "AYCT-202",
       "name": {
         "en": "AYCT-202"
+      },
+      "energy": {
+        "batteries": [
+          "CR2450"
+        ]
       }
     },
     {
@@ -5840,6 +5958,11 @@
       "id": "KCT-101",
       "name": {
         "en": "KCT-101"
+      },
+      "energy": {
+        "batteries": [
+          "A23"
+        ]
       }
     },
     {
@@ -5882,6 +6005,11 @@
       "id": "KCT-510",
       "name": {
         "en": "KCT-510"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -5924,6 +6052,11 @@
       "id": "PA3-1000R",
       "name": {
         "en": "PA3-1000R"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -6232,6 +6365,13 @@
       "id": "PIR-2050",
       "name": {
         "en": "PIR-2050"
+      },
+      "energy": {
+        "batteries": [
+          "AA",
+          "AA",
+          "AA"
+        ]
       }
     },
     {
@@ -6432,6 +6572,11 @@
       "id": "TMT-502",
       "name": {
         "en": "TMT-502"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -6512,6 +6657,11 @@
       "id": "WST-8700",
       "name": {
         "en": "WST-8700"
+      },
+      "energy": {
+        "batteries": [
+          "A23"
+        ]
       }
     },
     {
@@ -6592,6 +6742,11 @@
       "id": "WST-8800",
       "name": {
         "en": "WST-8800"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     },
     {
@@ -7081,6 +7236,11 @@
       "id": "YCT-102",
       "name": {
         "en": "YCT-102"
+      },
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
       }
     }
   ],

@@ -3,6 +3,9 @@
 	"name": {
 		"en": "AMST-606"
 	},
+	"energy": {
+		"batteries": [ "CR2032" ]
+	},
 	"$pairOptions": {
 		"rf.imitate": {
 			"title": "rf.pair.imitate.title.AMST-606",

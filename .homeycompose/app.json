@@ -1,7 +1,7 @@
 {
   "id": "nl.klikaanklikuit",
   "version": "4.2.4",
-  "compatibility": ">=1.5.13",
+  "compatibility": ">=3.0.0",
   "sdk": 2,
   "category": [
     "appliances",

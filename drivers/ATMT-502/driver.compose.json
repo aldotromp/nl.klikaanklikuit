@@ -3,6 +3,12 @@
     "name": {
         "en": "ATMT-502"
     },
+    "energy": {
+        "batteries": [
+            "CR2032",
+            "A23"
+        ]
+    },
     "$extends": [
         "defaults",
         "pair.remote",

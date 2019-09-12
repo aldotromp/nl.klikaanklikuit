@@ -8,6 +8,13 @@
 			"body": "rf.pair.program.body.ALED-003"
 		}
 	},
+	"energy": {
+        "batteries": [
+			"AAA",
+			"AAA",
+			"AAA"
+		]
+	},
 	"$extends": [
 		"defaults",
 		"device.light",

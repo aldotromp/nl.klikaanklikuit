@@ -3,6 +3,13 @@
     "name": {
         "en": "ACDB-6600C"
     },
+    "energy": {
+        "batteries": [
+            "AA",
+            "AA",
+            "AA"
+        ]
+    },
     "$extends": [
         "defaults",
         "device.doorbell",

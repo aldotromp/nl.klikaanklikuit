@@ -3,6 +3,9 @@
     "name": {
         "en": "AWMT-003"
     },
+    "energy": {
+        "batteries": [ "CR2032" ]
+    },
     "$extends": [
         "defaults",
         "settings.rotated.wall_switch",

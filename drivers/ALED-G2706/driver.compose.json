@@ -3,6 +3,10 @@
     "name": {
         "en": "ALED-G2706"
     },
+    "energy": {
+        "usageOn": 6,
+        "usageOff": 1
+    },
     "$extends": [
         "defaults",
         "device.light",

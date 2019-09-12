@@ -3,6 +3,13 @@
     "name": {
         "en": "PIR-2050"
     },
+    "energy": {
+        "batteries": [
+            "AA",
+            "AA",
+            "AA"
+        ]
+    },
     "$extends": [
         "defaults",
         "rf.kakuold.timeout",

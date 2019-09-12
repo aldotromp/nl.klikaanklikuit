@@ -3,6 +3,9 @@
     "name": {
         "en": "APA3-1500R"
     },
+    "energy": {
+        "batteries": [ "CR2032" ]
+    },
     "$flow": {
         "triggers": [
             {

@@ -3,6 +3,9 @@
     "name": {
         "en": "AKCT-510"
     },
+    "energy": {
+        "batteries": [ "CR2032" ]
+    },
     "$extends": [
         "defaults",
         "pair.remote",

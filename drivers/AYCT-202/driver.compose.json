@@ -3,6 +3,9 @@
     "name": {
         "en": "AYCT-202"
     },
+    "energy": {
+        "batteries": [ "CR2450" ]
+    },
     "rf": {
         "debounceTimeout": 500,
         "signal": "kakudim"

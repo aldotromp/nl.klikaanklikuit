@@ -3,6 +3,10 @@
     "name": {
         "en": "ALED-EC2206"
     },
+    "energy": {
+        "usageOn": 6,
+        "usageOff": 0.5
+    },
     "$extends": [
         "defaults",
         "device.light",

@@ -3,6 +3,9 @@
     "name": {
         "en": "WST-8700"
     },
+    "energy": {
+        "batteries": [ "A23" ]
+    },
     "$extends": [
         "defaults",
         "rf.kakuold",

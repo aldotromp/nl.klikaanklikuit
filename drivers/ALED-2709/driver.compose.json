@@ -3,6 +3,10 @@
     "name": {
         "en": "ALED-2709"
     },
+    "energy": {
+        "usageOn": 9,
+        "usageOff": 1
+    },
     "$extends": [
         "defaults",
         "device.light",

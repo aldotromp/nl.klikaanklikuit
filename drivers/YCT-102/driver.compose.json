@@ -3,6 +3,9 @@
     "name": {
         "en": "YCT-102"
     },
+    "energy": {
+        "batteries": [ "CR2032" ]
+    },
     "$extends": [
         "defaults",
         "images.png",

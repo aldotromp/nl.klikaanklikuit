@@ -3,6 +3,10 @@
     "name": {
         "en": "ALED-MR2705"
     },
+    "energy": {
+        "usageOn": 5,
+        "usageOff": 1
+    },
     "$extends": [
         "defaults",
         "device.light",

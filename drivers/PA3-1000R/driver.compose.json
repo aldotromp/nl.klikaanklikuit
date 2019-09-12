@@ -3,6 +3,9 @@
     "name": {
         "en": "PA3-1000R"
     },
+    "energy": {
+        "batteries": [ "CR2032" ]
+    },
     "$flow": {
         "triggers": [
             {
